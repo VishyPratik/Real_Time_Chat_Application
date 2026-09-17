@@ -11,7 +11,7 @@ const messageRouter=require("./Routes/messageRoute");
 const { app, server } = require("./socket/socket");
 
 app.use(cors({
-    origin: "https://real-time-chat-application-1-gd0r.onrender.com/",
+    origin: "https://real-time-chat-application-1-gd0r.onrender.com",
     credentials: true,
 
 }))
