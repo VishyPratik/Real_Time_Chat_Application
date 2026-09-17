@@ -11,7 +11,7 @@ const messageRouter=require("./Routes/messageRoute");
 const { app, server } = require("./socket/socket");
 
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://real-time-chat-application-fronted.onrender.com",
     credentials: true,
 
 }))
