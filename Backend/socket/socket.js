@@ -6,7 +6,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
     cors: {
-        origin: "https://real-time-chat-application-1-gd0r.onrender.com",
+        origin: "http://localhost:5173",
         credentials: true,
     }
 });
