@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: Real_Time_Chat_Application-2
+    runtime: static
+    buildCommand: cd Fronted && npm install && npm run build
+    staticPublishPath: Fronted/dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
